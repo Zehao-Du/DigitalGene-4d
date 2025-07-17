@@ -395,9 +395,7 @@ def jitter_parameters(concepts, dishwasher_type):
                 offset[0] = random.randint(-10, 10) / 100 * door_params["size"][0]
                 offset[2] += 0.5 * (specific_pos + door_params["size"][2]) * np.cos(
                     rotation * np.pi / 180
-                ) + move_ratio * door_params["size"][1] * np.sin(
-                    rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                ) + move_ratio * door_params["size"][1] * np.sin(rotation * np.pi / 180)
                 offset[1] += -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + move_ratio * door_params["size"][1] * np.cos(rotation * np.pi / 180)
@@ -411,7 +409,7 @@ def jitter_parameters(concepts, dishwasher_type):
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.sin(
                     rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                )
                 offset[0] += -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.cos(
@@ -425,7 +423,7 @@ def jitter_parameters(concepts, dishwasher_type):
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.sin(
                     rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                )
                 offset[0] -= -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.cos(
@@ -489,9 +487,7 @@ def jitter_parameters(concepts, dishwasher_type):
                 offset[0] = random.randint(-10, 10) / 100 * door_params["size"][0]
                 offset[2] += 0.5 * (specific_pos + door_params["size"][2]) * np.cos(
                     rotation * np.pi / 180
-                ) + move_ratio * door_params["size"][1] * np.sin(
-                    rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                ) + move_ratio * door_params["size"][1] * np.sin(rotation * np.pi / 180)
                 offset[1] += -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + move_ratio * door_params["size"][1] * np.cos(rotation * np.pi / 180)
@@ -505,7 +501,7 @@ def jitter_parameters(concepts, dishwasher_type):
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.sin(
                     rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                )
                 offset[0] += -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.cos(
@@ -519,7 +515,7 @@ def jitter_parameters(concepts, dishwasher_type):
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.sin(
                     rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                )
                 offset[0] -= -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.cos(
@@ -575,9 +571,7 @@ def jitter_parameters(concepts, dishwasher_type):
                 offset[0] = random.randint(-10, 10) / 100 * door_params["size"][0]
                 offset[2] += 0.5 * (specific_pos + door_params["size"][2]) * np.cos(
                     rotation * np.pi / 180
-                ) + move_ratio * door_params["size"][1] * np.sin(
-                    rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                ) + move_ratio * door_params["size"][1] * np.sin(rotation * np.pi / 180)
                 offset[1] += -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + move_ratio * door_params["size"][1] * np.cos(rotation * np.pi / 180)
@@ -591,7 +585,7 @@ def jitter_parameters(concepts, dishwasher_type):
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.sin(
                     rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                )
                 offset[0] += -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.cos(
@@ -605,7 +599,7 @@ def jitter_parameters(concepts, dishwasher_type):
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.sin(
                     rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                )
                 offset[0] -= -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.cos(
@@ -657,9 +651,7 @@ def jitter_parameters(concepts, dishwasher_type):
                 offset[0] = random.randint(-10, 10) / 100 * door_params["size"][0]
                 offset[2] += 0.5 * (specific_pos + door_params["size"][2]) * np.cos(
                     rotation * np.pi / 180
-                ) + move_ratio * door_params["size"][1] * np.sin(
-                    rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                ) + move_ratio * door_params["size"][1] * np.sin(rotation * np.pi / 180)
                 offset[1] += -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + move_ratio * door_params["size"][1] * np.cos(rotation * np.pi / 180)
@@ -673,7 +665,7 @@ def jitter_parameters(concepts, dishwasher_type):
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.sin(
                     rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                )
                 offset[0] += -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.cos(
@@ -687,7 +679,7 @@ def jitter_parameters(concepts, dishwasher_type):
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.sin(
                     rotation * np.pi / 180
-                )  # 要考虑到门的厚度以及在沿门方向的偏移
+                )
                 offset[0] -= -0.5 * (specific_pos + door_params["size"][2]) * np.sin(
                     rotation * np.pi / 180
                 ) + (move_ratio) * door_params["size"][0] * np.cos(
