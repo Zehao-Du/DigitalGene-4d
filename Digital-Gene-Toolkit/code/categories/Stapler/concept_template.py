@@ -314,7 +314,7 @@ class Complex_Magazine(ConceptTemplate):
 
         behind_mesh_position = [0, size[1] / 2, thickness[0] / 2]
         self.behind_mesh = Cuboid(
-            size[1], size[0], thickness[0], position=bottom_mesh_position
+            size[1], size[0], thickness[0], position=behind_mesh_position
         )
         vertices_list.append(self.behind_mesh.vertices)
         faces_list.append(self.behind_mesh.faces + total_num_vertices)

@@ -283,7 +283,7 @@ class Spray_Nozzle(ConceptTemplate):
         delta_height += middle_size[1] / 2 + top_size[1] / 2
         top_mesh_position = [
             0,
-            delta_height + top_offset_y + top_offset[0] * np.sin(top_rotation[0]),
+            delta_height + top_offset_y - top_offset[0] * np.sin(top_rotation[0]),
             top_offset[0] * np.cos(top_rotation[0]),
         ]
         top_mesh_rotation = [top_rotation[0], 0, 0]

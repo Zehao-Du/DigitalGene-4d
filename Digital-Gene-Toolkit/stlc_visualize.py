@@ -105,7 +105,7 @@ if __name__ == "__main__":
 
         # Determine whether the object model exists
         has_object_model = True
-        object_model_path = f"{os.path.dirname(os.path.abspath(__file__))}/code/categories/{args.category}/object_model"
+        object_model_path = f"./assets/object_models/{args.category}"
         if not os.path.exists(object_model_path):
             has_object_model = False
         elif not os.path.exists(f"{object_model_path}/{data['id']}.obj"):

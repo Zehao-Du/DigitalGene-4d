@@ -49,8 +49,10 @@ def main():
 
         o3d.visualization.draw_geometries([opt_mesh])
 
-    if not os.path.exists("./assets/conceptualizations/prog"):
+    if not os.path.exists("./assets/conceptualizations"):
         os.mkdir("./assets/conceptualizations")
+
+    if not os.path.exists("./assets/conceptualizations/prog"):
         os.mkdir("./assets/conceptualizations/prog")
 
     save_path = f"./assets/conceptualizations/prog/{args.category}.pkl"
